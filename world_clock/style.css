@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://www.freegreatpicture.com/files/147/7962-background-color.jpg');
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    margin-top: 30vh;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center ;
+    box-shadow: 0 0 15px rgb(0, 166, 255);
+}
+.searchIn{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 166, 255);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#select{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 166, 255);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.searchButton{
+    width: 130px;
+    height: 30px;
+    background-color: rgb(0, 166, 255);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.showCity{
+    width: 50%;
+    height: auto;
+    background-color:white;
+    position: absolute;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(0, 166, 255);
+}
+.closer{
+    font-size: 30px;
+    z-index: 1000000;
+    position: absolute;
+    left: 600;
+}
+.closer:hover{
+    cursor: pointer;
+    color:yellow;
+}
